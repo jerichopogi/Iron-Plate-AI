@@ -1,0 +1,42 @@
+{
+  "name": "IronPlate AI - Fitness & Meal Planner",
+  "short_name": "IronPlate AI",
+  "description": "Hyper-personalized workout and meal plans powered by AI. Offline-first fitness app for gym-goers.",
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "fitness", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Today's Workout",
+      "short_name": "Workout",
+      "description": "View today's workout plan",
+      "url": "/workout",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Meal Plan",
+      "short_name": "Meals",
+      "description": "View meal plan and grocery list",
+      "url": "/meals",
+      "icons": [{ "src": "/icon-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}
